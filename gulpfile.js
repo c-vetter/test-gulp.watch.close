@@ -1,6 +1,6 @@
 var gulp = require('gulp')
 
-gulp.task('test', done => {
+gulp.task('default', done => {
   gulp.watch('.').close();
   done();
 })
